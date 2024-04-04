@@ -113,6 +113,7 @@ include("config.php");
                     <p class="card-text">'.$rida ['artist'].'</p>
                     <a href="#" class= "btn btn-danger">Osta</a>
                     <a href="index.php?del=kustuta&id='.$rida ['id'].'" class="btn btn-warning">Kustuta</a>
+                    <a href="edit.php?id='.$rida ['id'].'" class="btn btn-warning">Uuenda</a>
                   </div>
                 </div>
               </div>';
