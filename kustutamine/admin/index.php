@@ -1,5 +1,6 @@
 <?php
-;
+//print_r(password_hash("admin123", PASSWORD_DEFAULT));
+
 session_start();
 if (!isset($_SESSION['login'])) {
     header("Location: login.php");
